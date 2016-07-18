@@ -1,0 +1,29 @@
+{
+  "name": "perfecto-nightwatch-example",
+  "version": "0.0.1",
+  "description": "A Nightwatch.js example setup for use with Perfecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -e default -c nightwatch.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nic128/perfecto-nightwatch-example.git"
+  },
+  "keywords": [
+    "perfecto",
+    "nightwatch.js"
+  ],
+  "author": "Nicolas Martel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nic128/perfecto-nightwatch-example/issues"
+  },
+  "homepage": "https://github.com/Nic128/perfecto-nightwatch-example#readme",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "getenv": "^0.6.0",
+    "mkdirp": "^0.5.1",
+    "nightwatch": "^0.9.5"
+  }
+}
